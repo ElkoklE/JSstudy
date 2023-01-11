@@ -4,23 +4,62 @@
 
 // const answer = prompt('a u loh?', 'yep!');
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-const a = prompt('Один из последних просмотренных фильмов?',''),
-    b = prompt('На сколько оцените его?',''),
-    c = prompt('Один из последних просмотренных фильмов?',''),
-    d = prompt('На сколько оцените его?','');
+// const a = prompt('Один из последних просмотренных фильмов?',''),
+//     b = prompt('На сколько оцените его?',''),
+//     c = prompt('Один из последних просмотренных фильмов?',''),
+//     d = prompt('На сколько оцените его?','');
 
-    personalMovieDB.movies[a] = b;
-    personalMovieDB.movies[c] = d;
+//     personalMovieDB.movies[a] = b;
+//     personalMovieDB.movies[c] = d;
     
+
+//     console.log(personalMovieDB);
+
+// let i = 5;
+// while (i <11){
+//     console.log(i);
+//     i++;
+// }
+
+// for( let i = 20; i>=10; i--){
+//     console.log(i);
+//     if(i == 13){
+//         break;
+//     }
+// }
+
+// for( let i = 2; i<=10; i++){
     
-    console.log(personalMovieDB);
+//     if(i %2===0){
+//        console.log(i);
+//     }
+
+// }
+
+
+// let i = 2;
+// while (i<=16 ){
+//     if (i%2 ===0){
+//         i++;
+//     }else{
+//         console.log(i);
+//         i++;
+//     }
+
+// }
+const arrayOfNumbers = [];
+for(let i = 5; i<=10; i++){
+    arrayOfNumbers.push(i);
+}
+console.log(arrayOfNumbers);
+return arrayOfNumbers;
