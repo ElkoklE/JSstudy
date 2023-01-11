@@ -57,9 +57,49 @@
 //     }
 
 // }
-const arrayOfNumbers = [];
-for(let i = 5; i<=10; i++){
-    arrayOfNumbers.push(i);
-}
-console.log(arrayOfNumbers);
-return arrayOfNumbers;
+
+
+// const arrayOfNumbers = [];
+// for(let i = 5; i<=10; i++){
+//     arrayOfNumbers.push(i);
+// }
+// console.log(arrayOfNumbers);
+// return arrayOfNumbers;
+
+
+
+// const arr = [3, 5, 8, 16, 20, 23, 50];
+// const result = [];
+
+// for(let i = 0; i< arr.length; i++){
+//     result.push(arr[i]);
+// }
+// console.log(result);
+// return result;
+
+
+
+// const data = [5, 10, 'Shopping', 20, 'Homework'];
+//     const result = [];
+
+// for(let i = 0; i<data.length; i++){
+//     if(typeof(data[i]) === 'number') {
+//         result.push(data[i] * 2);
+//     } else {
+//         result.push(data[i] +' - done');
+//     }
+// }
+
+// console.log(result);
+// return result;
+
+
+
+// const data = [5, 10, 'Shopping', 20, 'Homework'];
+//     const result = [];
+
+// for(let i = 0; i<data.length; i++){
+//     result.unshift(data[i]);
+// }
+// console.log(result);
+// return result;
