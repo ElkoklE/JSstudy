@@ -171,3 +171,57 @@ const personalMovieDB = {
 
 
 
+// function sayName(a) {
+//     const b = `Hello, ${a}!`;
+//     return b;
+// }
+// sayName('Andy');
+
+
+
+// function numArr(i) {
+//     const a = i-1;
+//     const b = i+1;
+//     let arr = [a, i, b];
+//     console.log(arr);
+// }
+// numArr(4);
+
+
+// function getMathResult(a, b) {
+//     const arr = [];
+//     arr.push(a);
+//     for(let i=2; i <= b; i++){
+//         arr.push(a*i);
+        
+//     }
+//     console.log(arr);
+// }
+
+// getMathResult(3, 2);
+
+
+
+
+
+//ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM
+
+// function getMathResult(a, b) {
+//     if(typeof(b) != 'number' || b <= 0) {
+//         return a;
+//     }
+
+//     let str = '';
+//     for(let i=1; i <= b; i++){
+//         if (i === b){
+//             str += `${i*a}`;
+//         } else {
+//             str += `${a*i}---`;
+//         }
+//     }
+//     console.log(str);
+//     return str;
+// }
+// getMathResult(3, 3);
+
+//ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM ALARM
